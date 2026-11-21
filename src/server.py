@@ -7,6 +7,8 @@ import shutil
 import sys
 import os
 import getpass
+import time
+print("Notice: When running, press ^C (Ctrl+C) to stop. May need to press twice on ngrok.")
 HOST = "127.0.0.1"
 PORT = 8000
 NGROK_DOMAIN = "deduct-moocher-gulf.ngrok-free.dev"
